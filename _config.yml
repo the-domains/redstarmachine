@@ -1,28 +1,39 @@
-name: Redstarmachine
 favicon: null
-layout_spectrum: 0.1028969765175134
-typography_spectrum: 0.3770852272864431
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Redstarmachine
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  brandStrength: 0.32374157244339585
-  lightness: 0.6319946821313351
-  saturation: 0.4165949134621769
-  rhythmicContrast: 0.34621484694071114
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.3517723
+  brandStrength: 0.2142857
+  lightness: 0.4613319
+  brandColors:
+    - '#D0CED1'
+    - '#F2F0F3'
+    - '#424043'
+    - '#888689'
+  rhythmicContrast: 0.4795918
+typography_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+layout_spectrum: 0.9618689
